@@ -3,6 +3,7 @@
  * @brief This file contains implementation of phong rendering method
  *
  * @author Tomáš Milet, imilet@fit.vutbr.cz
+ * Vypracoval Filip Januška
  */
 
 #include <student/phongMethod.hpp>
