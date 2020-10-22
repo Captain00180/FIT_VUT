@@ -3,6 +3,7 @@
  * @brief This file contains implementation of gpu
  *
  * @author Tomáš Milet, imilet@fit.vutbr.cz
+ * Vypracoval Filip Januška
  */
 
 #include <student/gpu.hpp>
