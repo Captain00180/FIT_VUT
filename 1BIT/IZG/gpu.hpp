@@ -3,6 +3,7 @@
  * @brief This file contains class that represents graphic card.
  *
  * @author Tomáš Milet, imilet@fit.vutbr.cz
+ * Vypracoval Filip Januška
  */
 #pragma once
 
