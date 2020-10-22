@@ -1,0 +1,10 @@
+Po provedení profilingu s 10, 100 a 1000 náhodnými čísly byl pomocí programu kcachegrind zobrazen graf volání funkcí.
+Veškeré grafy jsou uloženy v souborech profiling[10/100/1000]callgraph.png, které se nachází v stejné složce, jako tento soubor.
+
+profiling.py je v png souborech zobrazen jako <module> tyrkysové barvy a stejně tak i funkce v něm
+
+Na obrázcích lze vidět, že nejvíce času zabírá funkce SampleStandardDeviation, která má za úkol celkový výpočet Výběrové směrodatné odchylky a ze které se volají vlastně všechny další podfunkce a i funkce z knihovny matlib.
+
+Díky callgraphu se nám podařilo odhalit, že se funkce ArithmeticallAverage volala zbytečně pokaždé, kdy se v cyklu bralo jednotlivé číslo. To bylo následnově upraveno tak, že se volá ArithmeticallAverage pouze jednou a poté se již pracuje s hodnotou, kterou jsme si uložili do proměnné.
+
+Díky tomu jsme ušetřili 10, 100 či 1000 zavolání funkce ArithmeticallAverage, která by nadále jinak ještě volala Summation, a tudíž by vzniklo mnoho dalších zbytečných volání => zpomalení programu.
