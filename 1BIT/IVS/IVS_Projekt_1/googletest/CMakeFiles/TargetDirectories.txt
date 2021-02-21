@@ -1,0 +1,3 @@
+/home/filipjanuska/Desktop/IVS_Projekt_1/googletest/CMakeFiles/rebuild_cache.dir
+/home/filipjanuska/Desktop/IVS_Projekt_1/googletest/CMakeFiles/googletest.dir
+/home/filipjanuska/Desktop/IVS_Projekt_1/googletest/CMakeFiles/edit_cache.dir

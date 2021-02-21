@@ -1,0 +1,189 @@
+IVS-půlsemka
+
+PREDNASKA 1
+
+Praktická pravidla pro psaní udržovatelného kódu
+-Pravidlo srozumitelnosti (srozumitelnost je lepsi nez chytrost)
+-Pravidlo kompozice (navrhujte programy tak, aby je bylo
+ mozne pripojit k dalsim programum)
+-Pravidlo transparentnosti (navrhujte programy tak, aby bylo
+ co nejsnazsi jejich ladeni a kontrola)
+-Pravidlo robustnosti
+-Pravidlo reprezentace (zahalte znalosti do dat tak, aby
+ logika programu mohla byt hloupa a robustni)
+-Pravidlo nejmensiho prekvapenı (pri navrhu rozhranı se
+ snazte, aby delalo vzdy co nejmene prekvapujıcı veci)
+-Pravidlo setreni casu
+-Pravidlo optimalizace (nejdriv udelej prototyp a pak ho zacni optimalizovat)
+-Pravidlo rozmanitosti
+-Pravidlo rozsiritelnosti
+
+Refaktorizace
+-Kazda cast programu ma jednu jednoznacnou a spolehlivou podobu
+-Zadny opakovani kodu - vede k nekonzistenci
+-Refaktorizace=proces zabyvajici se vnitrnim preusporadanim kodu, aniz by se zmenila jeho funkcnost (odstranovani duplicit, zprehledneni,..)
+-Kod je lepe citelny, udrzovatelny, lepsi skalovatelnost, zjednoduseni struktury kodu
+
+PREDNASKA 2 - Testovani SW
+
+Verifikace
+-Kontrola, zda produkt odpovida specifikaci
+Validace
+-Kontrola, zda produkt odpovida pozadavkum zakaznika
+
+Stupne testu
+-Jednotkove
+-Integracni
+-Systemove
+-Akceptacni
+
+Strategie testovani
+-Black box
+-White box
+-Test-driven Development (TDD)
+-Behaviour Driven Development (BDD)
+
+-Staticka analyza - bez spusteni
+-Dynamicka analyza - se spustenim
+
+PREDNASKA 3 - Tymova spoluprace, planovani, navrh
+
+PREDNASKA 4 
+
+Git
+-distribuovany  verzovaci system 
+-nepouziva inkrementy, ale snapshoty (kopie dat k urcitemu  bodu v case)
+-repozitare
+-tvorba revizi - Commit = jedna revize (revize = uceleny balik zmen resici jednu vec)
+
+Vetveni a tagy v Gitu
+-merge = spoji dve vetve tak, ze obe zustanou nezmenene, po predani do sdileneho repozitare vidi vetev vsichni
+-rebase = spoji dve vetve tak, ze zmeny jedne vetve prida na konec druhe, jedna vetev prestane existovat (nepouzivat na sdilenech repozitarich)
+-fast-forward - slucovane vetve nasleduji za sebou, takze se jen presune ukazatel
+
+PREDNASKA 5 - dokumentace
+Uzivatelska prirucka - pro neznale
+Referencni manual - detailni popis programu pro uzivatele a spravce, nepopisuje implementaci ale instalaci a použití
+Programova dokumentace - popisuje zdrojove texty programu 
+
+Doxygen
+@file - jmeno souboru
+@param - parametry funkce
+@return - navratova hodnota
+@brief - kratky popis funkce
+@package - komentovani balicku
+@class - komentovani tridy
+@todo
+@bug
+@author
+@warning - chybove hlaseni funkce
+@see - umoznuje vytvari odkazu v ramci dokumentace
+
+PREDNASKA 6 - Sestaveni programu, Make
+
+Makefile
+'all: main.o
+	 gcc -o myproject main.o' 
+-"all" je cíl
+-"main.o" označuje zavislost
+- řádek pod tím obsahuje příkazy
+obecně: 
+	cíl: závislost1 závislost2 ...
+		 příkaz1
+		 příkaz2
+..pokračování:
+'main.o: main.c
+	gcc -c main.c'
+	
+Promenne:
+-CC = gcc
+-CFLAGS = -Wall --std=c11
+-CXX = g++
+-CXXFLAGS = -Wall --std=c++11
+-LDLIBS = -lzip -lz
+
+PRADNASKA 7 - Uzivatelske rozhraní
+
+-dva uhly pohledu (programator x uzivatel)
+
+Co zajima uzivatele?
+-pouzitelnost (je radost s nim pracovat)
+-pristupnost
+-srozumitelnost
+-funkcionalita
+-vzhled
+
+Co je dulezite?
+-Viditelnost stavu systemu ("vim, co se deje")
+-Spojeni mezi systemem a realnym svetem ("vim, o cem je rec")
+-Uzivatelska kontrola a svoboda ("ajajaj"... storno, zpet, zrusit, ..)
+-Konzistence a standardizace ("tohle znam")
+-Rozpoznani misto vzpominani ("vim, co mam delat")
+-Prevence chyb ("bylo to o fous")
+-Flexibilni i efektivni pouziti
+-Esteticky a minimalisticky design ("it just works")
+-Pomoc uzivatelum s chybami ("vim, co s tim")
+-Napoveda a navody
+
+Navrh uzivatelskeho rozhrani
+-Wireframe - funkce a rozvrzeni, bez designu a vizualniho stylu
+-Mockup - forma, design, vzhled
+-Prototyp - funkcni maketa 
+
+PREDNASKA 8 - Debugging, bug tracking a profiling
+
+-Syntakticke(gramatika) x semanticke(smysl) chyby
+
+Debuggery pro C/C++
+-gdb - the GNU Project Debugger - textove rozhrani
+-ddd - Data Display Debugger - graficka nadstavba nad ruznymi debuggery
+
+Ladeni bez debuggeru
+-printf debugging
+-logovani - chybu lze najit zpetne
+-assert - overeni platnosti podminky
+
+DRY = Don't repeat yourself
+
+Volby gcc pro ladeni
+-g - vytvari ladici informace pro debugger
+-ggdb - rozsireni pro gdb
+-Wall - zapnuti vsech varovani
+-Wextra - zapnuti dalsich varovani
+-pedantic - striktne vyzaduje dodrzovani normy (-std=xx,-ansi)
+
+Valgrind 
+-sada nastroju pro ladeni a profilovani programu
+-pouze pro unixove systemy
+-Memcheck - sprava pameti
+-Callgrind - profilovani
+-Helgrind - detekce race coonditions
+-Cachegrind - profilovani cache CPU
+
+Bug tracking - sledovani zivotniho cyklu chyb
+
+Profiling
+-program funguje spravne, ale pomalu
+-mereni - analyza - optimalizace
+-vystup profileru - Flat profile (cas straveny v jednotlivych funkcich)
+                  - Graf volani (jak dlouho kazde volani funkce trvalo)
+                  - Anotovany kod (ke kazdemu radku kodu je pridan pocet vykonani)
+-gprof - nastroj
+-profilar napovi, kde se vyplati optimalizovat
+
+Vizualizace - gprof2dot (prevodnik do formatu pro GraphViz)
+
+Quality assurance
+-proces zajistovani kvality
+-code review, testovani, QA inzenyr kontrluje praci vyvojaru
+
+-Capability Maturity Model (CMM) - hodnoceni vyspelosti procesu v organizaci
+
+
+
+
+
+
+
+
+

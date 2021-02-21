@@ -1,0 +1,520 @@
+Dvousm�rn� v�zan� line�rn� seznam
+=================================
+
+[TEST01]
+Inicializace seznamu
+~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST02]
+Pokus o vol�n� DLCopyFirst na pr�zdn� seznam => chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace DLCopyFirst volala funkci DLError.
+
+[TEST03]
+Pokus o vol�n� DLCopyLast na pr�zdn� seznam => chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace DLCopyLast volala funkci DLError.
+
+[TEST04]
+Zavol�me 2x operaci DLInsertFirst a 2x operaci DLInsertLast.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	1
+-----------------
+-----------------
+ 	2
+ 	1
+-----------------
+-----------------
+ 	2
+ 	1
+ 	3
+-----------------
+-----------------
+ 	2
+ 	1
+ 	3
+ 	4
+-----------------
+
+[TEST05]
+Seznam by m�l b�t neaktivn� -- ov���me si to vol�n�m DLActive.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace DLActive vrac� hodnotu false.
+
+[TEST06]
+Otestujeme funkci DLFirst p�i neaktivn�m seznamu a funkci DLActive.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	2	 <= toto je aktivn� prvek 
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST07]
+Otestujeme funkci DLLast.
+~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	2
+ 	1
+ 	3
+ 	4	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST08]
+Test funkce DLCopy p�i aktivit� na posledn�m prvku
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace DLCopy vrac� obsah 4.
+
+[TEST09]
+Test funkce DLPred -- vol�me 3x, aktivita z�stane na prvn�m prvku.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	2
+ 	1
+ 	3	 <= toto je aktivn� prvek 
+ 	4
+-----------------
+-----------------
+ 	2
+ 	1	 <= toto je aktivn� prvek 
+ 	3
+ 	4
+-----------------
+-----------------
+ 	2	 <= toto je aktivn� prvek 
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST10]
+Aktualizujeme obsah aktivn�ho prvku.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5	 <= toto je aktivn� prvek 
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu true.
+Operace DLCopy vrac� obsah 5.
+
+[TEST11]
+Provedeme je�t� jednou DLPred -- aktivita se ztrat�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST12]
+Nastav�me aktivitu na konec a pak ji zru��me operac� DLSucc.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST13]
+Pokus�me se o aktualizaci p�i neaktivn�m seznamu => nic 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST14]
+Pokus o DLCopy p�i neaktivn�m seznamu => o�et�en� chyba.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace DLCopy volala funkci DLError.
+
+[TEST15]
+DLSucc p�i neaktivn�m seznamu nesm� zhavarovat.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST16]
+DLPred p�i neaktivn�m seznamu nesm� zhavarovat.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	5
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST17]
+Pou�it� operace DLCopyFirst p�i neaktivn�m seznamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace DLCopyFirst vrac� obsah 5.
+
+[TEST18]
+Pou�it� operace DLCopyLast p�i neaktivn�m seznamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace DLCopyLast vrac� obsah 4.
+
+[TEST19]
+Pou�it� operace DLDeleteFirst p�i neaktivn�m seznamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	1
+ 	3
+ 	4
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST20]
+Pou�it� operace DLDeleteLast p�i neaktivn�m seznamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	1
+ 	3
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST21]
+Operace DLFirst nastav� aktivitu na prvn� prvek.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	1	 <= toto je aktivn� prvek 
+ 	3
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST22]
+DLDeleteFirst aktivn�ho prvku povede ke ztr�t� aktivity.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	3
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST23]
+Operace DLLast nastav� aktivitu na posledn� prvek.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	3	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST24]
+Operace DLFirst p�i jedin�m prvku => aktivita z�st�v�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	3	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST25]
+DLDeleteLast aktivn�ho prvku povede ke ztr�t� aktivity.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST26]
+Vol�me 2x operaci DLInsertLast a 1x operaci DLInsertFirst.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	7
+-----------------
+-----------------
+ 	7
+ 	8
+-----------------
+-----------------
+ 	9
+ 	7
+ 	8
+-----------------
+
+[TEST27]
+Seznam je neaktivn� -- ov���me si to vol�n�m DLActive.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace DLActive vrac� hodnotu false.
+
+[TEST28]
+U�it�m operace DLLast nastav�me aktivitu na konec seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9
+ 	7
+ 	8	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST29]
+Operace DLPostDelete p�i aktivit� na posledn�m prvku ned�l� nic.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9
+ 	7
+ 	8	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST30]
+Nastav�me aktivitu na p�edposledn� prvek operac� DLPred a op�t
+zavol�me DLPostDelete. Sma�eme t�m posledn� prvek v seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9
+ 	7	 <= toto je aktivn� prvek 
+ 	8
+-----------------
+-----------------
+ 	9
+ 	7	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST31]
+U�it�m operace DLFirst nastav�me aktivitu na za��tek seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9	 <= toto je aktivn� prvek 
+ 	7
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST32]
+Operace DLPreDelete p�i aktivit� na prvn�m prvku ned�l� nic.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9	 <= toto je aktivn� prvek 
+ 	7
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST33]
+Nastav�me aktivitu na druh� prvek operac� DLSucc a op�t
+zavol�me DLPreDelete. Sma�e prvn� prvek v seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	9
+ 	7	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	7	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST34]
+Otestujeme DLInsertFirst p�i seznamu s jedin�m prvkem, nastav�me
+aktivitu na nov� vlo�en� prvek a op�t posuneme aktivitu na konec 
+seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	10
+ 	7	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	10	 <= toto je aktivn� prvek 
+ 	7
+-----------------
+-----------------
+ 	10
+ 	7	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST35]
+Operac� DLPostInsert vlo��me nov� prvek za posledn� prvek seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	10
+ 	7	 <= toto je aktivn� prvek 
+ 	11
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST36]
+Nastav�me aktivitu na prvn� prvek seznamu a vyzkou��me DLPostInsert.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	10	 <= toto je aktivn� prvek 
+ 	7
+ 	11
+-----------------
+-----------------
+ 	10	 <= toto je aktivn� prvek 
+ 	12
+ 	7
+ 	11
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST37]
+Nastv�me aktivitu na druh� prvek a vol�me 2x DLPostDelete a 1x DLPreDelete.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	10
+ 	12	 <= toto je aktivn� prvek 
+ 	7
+ 	11
+-----------------
+-----------------
+ 	10
+ 	12	 <= toto je aktivn� prvek 
+ 	11
+-----------------
+-----------------
+ 	10
+ 	12	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	12	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST38]
+Otestujeme DLInsertLast p�i seznamu s jedin�m prvkem, nastav�me
+aktivitu na nov� vlo�en� prvek a posuneme aktivitu na za��tek.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	12	 <= toto je aktivn� prvek 
+ 	13
+-----------------
+-----------------
+ 	12
+ 	13	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	12	 <= toto je aktivn� prvek 
+ 	13
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST39]
+Operac� DLPreInsert vkl�d�me nov� prvek p�ed prvn� prvek seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	14
+ 	12	 <= toto je aktivn� prvek 
+ 	13
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST40]
+Nastav�me aktivitu na posledn� prvek seznamu a aplikujeme DLPreInsert.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+ 	14
+ 	12
+ 	13	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+ 	14
+ 	12
+ 	15
+ 	13	 <= toto je aktivn� prvek 
+-----------------
+Operace DLActive vrac� hodnotu true.
+
+[TEST41]
+Otestujeme funk�nost operace DLDisposeList.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+N�sleduje testov�n� operac� p�i pr�zdn�m seznamu
+================================================
+
+[TEST42]
+DLFirst a DLLast p�i pr�zdn�m seznamu ned�laj� nic.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+Operace DLActive vrac� hodnotu false.
+
+[TEST43]
+DLCopyFirst i DLCopyLast zp�sob� o�et�enou chybu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace DLCopyFirst volala funkci DLError.
+*ERROR* The program has performed an illegal operation.
+Operace DLCopyLast volala funkci DLError.
+
+[TEST44]
+DLDeleteFirst a DLDeleteLast p�i pr�zdn�m seznamu ned�laj� nic.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+
+[TEST45]
+DLPostDelete a DLPreDelete p�i pr�zdn�m seznamu nic ned�laj�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+
+[TEST46]
+DLPostInsert i DLPreInsert p�i pr�zdn�m seznamu nic ned�laj�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+
+[TEST47]
+Pokus o DLCopy na pr�zdn� seznam => chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace DLCopy volala funkci DLError.
+
+[TEST48]
+DLActualize p�i pr�zdn�m seznamu nic neud�l�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST49]
+DLSucc a DLPred na pr�zdn� seznam nemaj� vliv.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+Operace DLActive vrac� hodnotu false.
+-----------------
+-----------------
+
+----------------------- konec p��kladu c206----------------------
+

@@ -1,0 +1,163 @@
+#!/bin/sh
+export POSIXLY_CORRECT=yes
+
+IGNORE=0
+NRM=0
+RATIO=1
+MAXNUM=0
+
+#process script switches and their validity
+while getopts "ni:" opt
+do
+	case "$opt" in
+		n) 	 NRM=1;;
+		i) 
+			if [ $IGNORE -eq 1 ]; then
+				echo "error: Too many arguments!"
+				exit 1
+			fi
+			IGNORE=1
+			FILE_ERE="$OPTARG";;
+		*)	echo "Use options -i [FILE_ERE] and -n">&2
+			exit 1;;
+	esac
+done
+
+shift $(($OPTIND-1))
+
+
+if [ $# -gt 1 ]; then
+	echo "error: Too many arguments">&2
+	exit 1
+fi
+
+#check validity of given directory
+if [ -n "$1" ]; then
+	if [ ! -d  "$1" ]; then
+		echo "error:  "$1"   is not a directory!">&2
+		exit 1
+	else
+		DIR="$1"
+		echo "Root directory: "$DIR""
+	fi
+else
+	DIR="."
+	echo "Root directory: "$PWD" "
+fi
+
+
+#gather file info ignoring FILE_ERE
+if [ $IGNORE -eq 1 ]; then
+	find "$DIR" -type d -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type d -print | echo "Directories: `wc -l`"
+	find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -print | echo "All files: `wc -l`"
+	
+	HUNDRED=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size -100c -print | wc -l` 			#| echo "<100B:" `wc -l`
+	KILO=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +99c -size -1024c -print | wc -l`			#| echo "<1KiB:" `wc -l`
+	TENKILO=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +1023c -size -10240c -print | wc -l` 		#| echo "<10KiB:" `wc -l`
+	HUNKILO=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +10239c -size -102400c -print | wc -l`		#| echo "<100KiB:" `wc -l`
+	MEGA=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +102399c -size -1048576c  -print | wc -l`		#| echo "<1MiB:" `wc -l`
+	TENMEGA=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +1048575c -size -10485760c -print | wc -l`		#| echo "<10MiB:" `wc -l`
+	HUNMEGA=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +10485759c -size -104857600c -print | wc -l`	#| echo "<100MiB:" `wc -l`
+	GIGA=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +104857599c -size -1073741824c -print | wc -l`	#| echo "<1GiB:" `wc -l`
+	GIGAPLUS=`find "$DIR" -type f -regextype posix-extended -regex ""$DIR"/*.*$FILE_ERE.*" -prune -o -type f -size +1073741823c -print | wc -l`			#| echo ">=1GiB:" `wc -l`
+
+#gather file info with no restriction
+else
+	find "$DIR" -type d | echo "Directories: `wc -l`"
+	find "$DIR" -type f | echo "All files: `wc -l`"
+
+	HUNDRED=`find "$DIR" -type f -size -100c -print | wc -l`		 		#|printf "%$((`wc -l`))s\n" | tr " " "#"
+        KILO=`find "$DIR" -type f -size +99c -size -1024c -print | wc -l`			#| echo "<1KiB:" `wc -l`
+        TENKILO=`find "$DIR" -type f -size +1023c -size -10240c -print | wc -l` 		#| echo "<10KiB:" `wc -l`
+        HUNKILO=`find "$DIR" -type f -size +10239c -size -102400c -print | wc -l`		#| echo "<100KiB:" `wc -l`
+        MEGA=`find "$DIR" -type f -size +102399c -size -1048576c  -print | wc -l`		#| echo "<1MiB:" `wc -l`
+        TENMEGA=`find "$DIR" -type f -size +1048575c -size -10485760c -print | wc -l`		#| echo "<10MiB:" `wc -l`
+        HUNMEGA=`find "$DIR" -type f -size +10485759c -size -104857600c -print | wc -l`		#| echo "<100MiB:" `wc -l`
+        GIGA=`find "$DIR" -type f -size +104857599c -size -1073741824c -print | wc -l`		#| echo "<1GiB:" `wc -l`
+        GIGAPLUS=`find "$DIR" -type f -size +1073741823c -print | wc -l`			#| echo ">=1GiB:" `wc -l`
+
+fi
+
+
+if [ $NRM -eq 1 ]; then
+	if [ -t 1 ]; then
+		MAX=$((`tput cols`-13))
+	else
+		MAX=68
+	fi
+#find largest category and calculate ratio needed for graph modification
+	if [ $HUNDRED -gt $MAX ]; then
+		RATIO=$(( ($HUNDRED + $MAX - 1) / $MAX))
+		MAXNUM=$HUNDRED
+	fi
+       	if [ $KILO -gt $MAX ] && [ $KILO -gt $MAXNUM ]; then
+		RATIO=$(( ($KILO + $MAX - 1) / $MAX))
+		MAXNUM=$KILO
+	fi		       
+	if [ $TENKILO -gt $MAX ] && [ $TENKILO -gt $MAXNUM ]; then
+		RATIO=$(( ($TENKILO + $MAX - 1) / $MAX))
+		MAXNUM=$TENKILO
+	fi
+	if [ $HUNKILO -gt $MAX ] && [ $HUNKILO -gt $MAXNUM ]; then
+	       	RATIO=$(( ($HUNKILO + $MAX - 1) / $MAX))
+		MAXNUM=$HUNKILO       
+	fi
+	if [ $MEGA -gt $MAX ] && [ $MEGA -gt $MAXNUM ]; then
+	       	RATIO=$(( ($MEGA + $MAX - 1) / $MAX)) 
+	  	MAXNUM=$MEGA
+	fi
+	if [ $TENMEGA -gt $MAX ] && [ $TENMEGA -gt $MAXNUM ]; then
+		RATIO=$(( ($TENMEGA + $MAX - 1) / $MAX))      
+	       	MAXNUM=$TENMEGA	
+	fi
+	if [ $HUNMEGA -gt $MAX ] && [ $HUNMEGA -gt $MAXNUM ]; then
+	       	RATIO=$(( ($HUNMEGA + $MAX - 1) / $MAX))
+		MAXNUM=$HUNMEGA       
+	fi
+	if [ $GIGA -gt $MAX ] && [ $GIGA -gt $MAXNUM ]; then
+	      	RATIO=$(( ($GIGA + $MAX - 1) / $MAX))   
+	  	MAXNUM=$GIGA
+	fi
+	if [ $GIGAPLUS -gt $MAX ] && [ $GIGAPLUS -gt $MAXNUM ]; then
+		RATIO=$(( ($GIGAPLUS + $MAX - 1) / $MAX))     
+	      	MAXNUM=$GIGAPLUS	
+	fi
+	
+fi
+
+#print file size histogram, modifying number of '#' if needed
+echo "File size histogram:"
+
+printf "  <100 B  : "
+printf "%$(( ($HUNDRED + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+	
+printf "  <1 KiB  : "
+printf "%$(( ($KILO + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+       		
+printf "  <10 KiB : "
+printf "%$(( ($TENKILO + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  <100 KiB: "
+printf "%$(( ($HUNKILO + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  <1 MiB  : "
+printf "%$(( ($MEGA + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  <10 MiB : "
+printf "%$(( ($TENMEGA + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  <100 MiB: "
+printf "%$(( ($HUNMEGA + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  <1 GiB  : "
+printf "%$(( ($GIGA + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+printf "  >=1 GiB : "
+printf "%$(( ($GIGAPLUS + $RATIO - 1) / $RATIO ))s\n" | tr " " "#"
+
+
+
+exit 0
+
+
+

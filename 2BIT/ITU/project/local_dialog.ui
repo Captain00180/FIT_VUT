@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Change_Username</class>
+ <widget class="QDialog" name="Change_Username">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Change Username</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qradialgradient(spread:pad, cx:0.545, cy:0.0568182, radius:1.39, fx:0.528249, fy:0.33, stop:0.431818 rgba(56, 56, 56, 255), stop:1 rgba(75, 75, 75, 255));
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid rgb(0, 0, 0);
+color: rgb(6, 205, 227);
+background-color: rgb(56, 56, 56);</string>
+     </property>
+     <property name="text">
+      <string>Username</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid rgb(0, 0, 0);
+color: rgb(5, 153, 167);
+background-color: rgb(156, 156, 156);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+                             {
+                            background-color: qlineargradient(spread:pad, x1:0.511, y1:0.727, 		x2:0.528, y2:0, stop:0.431818 rgba(31, 31, 31, 255), stop:1 rgba(75, 75, 75, 255));
+font: 20pt &quot;High Tower Text&quot;;
+color: rgb(6, 205, 227);
+border: 1px solid rgb(6, 205, 227);
+                             }
+                             QPushButton::hover {
+							
+background-color: qradialgradient(spread:pad, cx:0.545, cy:0.0568182, radius:1.39, fx:0.528249, fy:0.33, stop:0.420455 rgba(75, 75, 75, 255), stop:1 rgba(56, 56, 56, 255));
+}
+
+
+                             QPushButton::pressed
+                             {
+                             
+	background-color: qradialgradient(spread:pad, cx:0.545, cy:0.0568182, radius:1.39, fx:0.528249, fy:0.33, stop:0.431818 rgba(110, 110, 110, 255), stop:1 rgba(99, 99, 99, 255));
+                             }
+
+</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Change_Username</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Change_Username</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

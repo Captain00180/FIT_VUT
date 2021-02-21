@@ -1,0 +1,10 @@
+install/BC-calc-icon.xpm /usr/share/pixmaps
+install/bc-calc.desktop /usr/share/applications
+install/BC_Calc /usr/bin
+calc_main.py /usr/bin/bc-calc
+calc_controller.py /usr/bin/bc-calc
+calc_help_ui.py /usr/bin/bc-calc
+calc_ui.py /usr/bin/bc-calc
+calcul.py /usr/bin/bc-calc
+matlib.py /usr/bin/bc-calc
+

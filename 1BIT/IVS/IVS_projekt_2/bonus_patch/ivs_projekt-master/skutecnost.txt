@@ -1,0 +1,8 @@
+ROZDÍLY MEZI SKUTEČNOSTÍ A PLÁNEM - xgerza00, xjanus11, xhurta04, xmalyv03
+
+1. Jeden test do TDD byl přidám posléze, jelikož jsme potřebovali přidat funkci.
+
+2. Rozdělení funkcí bylo mírně pozměněno, jelikož jsme při hovoru zjistili, že máme někteří lepší znalosti v daném oboru, než druzí. 
+   Stále jsme se ale snažili zachovat zhruba stejnou časovou náročnost.
+   
+3. Během vývoje se rozhodlo, že bude použit PyQt místo Tkinter.

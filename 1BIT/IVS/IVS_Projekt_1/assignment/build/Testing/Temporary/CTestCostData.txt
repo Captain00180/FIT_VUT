@@ -1,0 +1,27 @@
+NonEmptyQueue.Insert 11 0.00109074
+NonEmptyQueue.RemoveAllForward 11 0.000360372
+NonEmptyQueue.RemoveAllBackward 11 0.000445522
+NonEmptyQueue.Find 11 0.000324185
+EmptyQueue.Insert 11 0.000297348
+EmptyQueue.Remove 18 0.000181318
+EmptyQueue.Find 18 0.000180686
+Empty.Insert 2 0.00165862
+EmptyTree.InsertNode 14 0.000876022
+EmptyTree.DeleteNode 14 0.000394831
+EmptyTree.FindNode 13 0.000276631
+NonEmptyTree.InsertNode 13 0.000273261
+NonEmptyTree.DeleteNode 13 0.000244385
+NonEmptyTree.FindNode 13 0.000339909
+TreeAxioms.Axiom1 13 0.00024717
+TreeAxioms.Axiom2 13 0.000285578
+TreeAxioms.Axiom3 13 0.000294556
+Initial.construct 13 0.00131339
+Matica.set 13 0.000682174
+Matica.set_vector 13 0.000781364
+Matica.get 13 0.000760825
+Matica.compare 13 0.0151498
+Matica.add 13 0.000615644
+Matica.multiply_matrix 13 0.00127436
+Matica.multiply_scalar 13 0.00415546
+Matica.solve 13 0.00073448
+---

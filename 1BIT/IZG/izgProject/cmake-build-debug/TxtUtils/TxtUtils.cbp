@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TxtUtils"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ArgumentViewer\;CMake Files\BasicCamera\;CMake Files\MealyMachine\;CMake Files\SDL2-2.0.10\;CMake Files\SDL2-2.0.10\cmake\;CMake Files\SDL2-2.0.10\include\;CMake Files\TxtUtils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TxtUtils">
+				<Option output="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/libTxtUtilsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 TxtUtils"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TxtUtils/fast">
+				<Option output="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/libTxtUtilsd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine"/>
+					<Add directory="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 TxtUtils/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src/TxtUtils/TxtUtils.cpp">
+			<Option target="TxtUtils"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src/TxtUtils/TxtUtils.h">
+			<Option target="TxtUtils"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ArgumentViewer\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/CMakeUtils.cmake">
+			<Option virtualFolder="CMake Files\ArgumentViewer\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BasicCamera\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/CMakeUtils.cmake">
+			<Option virtualFolder="CMake Files\BasicCamera\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MealyMachine\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/CMakeUtils.cmake">
+			<Option virtualFolder="CMake Files\MealyMachine\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/sdl2-config.in">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\cmake\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.0.10\include\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TxtUtils\"/>
+		</Unit>
+		<Unit filename="/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/CMakeUtils.cmake">
+			<Option virtualFolder="CMake Files\TxtUtils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

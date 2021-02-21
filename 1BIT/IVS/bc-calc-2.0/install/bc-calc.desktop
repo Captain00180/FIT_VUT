@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=BC_Calc
+GenericName=BC Calculator
+Icon=/usr/share/pixmaps/BC-calc-icon.xpm
+Name=BC-Calc
+Type=Application
+

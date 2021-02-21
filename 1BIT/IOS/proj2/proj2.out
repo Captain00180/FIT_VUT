@@ -1,0 +1,76 @@
+1:	IMM 1:	starts
+2:	IMM 1:	enters:	 1: 0: 1
+3:	IMM 1:	checks:	 1: 1: 1
+4:	IMM 2:	starts
+5:	IMM 2:	enters:	 2: 1: 2
+6:	IMM 2:	checks:	 2: 2: 2
+7:	JUDGE:	wants to enter
+8:	JUDGE:	enters:	 2: 2: 2
+9:	JUDGE:	starts confirmation:	 2: 2: 2
+10:	IMM 3:	starts
+11:	IMM 4:	starts
+12:	IMM 5:	starts
+13:	JUDGE:	ends confirmation:	 0: 0: 2
+14:	IMM 1:	wants certificate:	 0: 0: 2
+15:	IMM 2:	wants certificate:	 0: 0: 2
+16:	IMM 6:	starts
+17:	IMM 1:	got certificate:	 0: 0: 2
+18:	JUDGE:	leaves:	 0: 0: 2
+19:	IMM 3:	enters:	 1: 0: 3
+20:	IMM 3:	checks:	 1: 1: 3
+21:	IMM 4:	enters:	 2: 1: 4
+22:	IMM 4:	checks:	 2: 2: 4
+23:	IMM 5:	enters:	 3: 2: 5
+24:	IMM 5:	checks:	 3: 3: 5
+25:	IMM 6:	enters:	 4: 3: 6
+26:	IMM 1:	leaves:	 4: 3: 5
+27:	IMM 6:	checks:	 4: 4: 5
+28:	IMM 2:	got certificate:	 4: 4: 5
+29:	IMM 2:	leaves:	 4: 4: 4
+30:	IMM 7:	starts
+31:	IMM 7:	enters:	 5: 4: 5
+32:	IMM 7:	checks:	 5: 5: 5
+33:	JUDGE:	wants to enter
+34:	JUDGE:	enters:	 5: 5: 5
+35:	JUDGE:	starts confirmation:	 5: 5: 5
+36:	JUDGE:	ends confirmation:	 0: 0: 5
+37:	IMM 3:	wants certificate:	 0: 0: 5
+38:	IMM 6:	wants certificate:	 0: 0: 5
+39:	IMM 5:	wants certificate:	 0: 0: 5
+40:	IMM 4:	wants certificate:	 0: 0: 5
+41:	IMM 7:	wants certificate:	 0: 0: 5
+42:	IMM 8:	starts
+43:	IMM 9:	starts
+44:	IMM 6:	got certificate:	 0: 0: 5
+45:	IMM 7:	got certificate:	 0: 0: 5
+46:	IMM 10:	starts
+47:	IMM 3:	got certificate:	 0: 0: 5
+48:	IMM 5:	got certificate:	 0: 0: 5
+49:	IMM 4:	got certificate:	 0: 0: 5
+50:	JUDGE:	leaves:	 0: 0: 5
+51:	IMM 8:	enters:	 1: 0: 6
+52:	IMM 8:	checks:	 1: 1: 6
+53:	IMM 9:	enters:	 2: 1: 7
+54:	IMM 9:	checks:	 2: 2: 7
+55:	IMM 6:	leaves:	 2: 2: 6
+56:	IMM 7:	leaves:	 2: 2: 5
+57:	IMM 10:	enters:	 3: 2: 6
+58:	IMM 10:	checks:	 3: 3: 6
+59:	IMM 3:	leaves:	 3: 3: 5
+60:	IMM 5:	leaves:	 3: 3: 4
+61:	IMM 4:	leaves:	 3: 3: 3
+62:	JUDGE:	wants to enter
+63:	JUDGE:	enters:	 3: 3: 3
+64:	JUDGE:	starts confirmation:	 3: 3: 3
+65:	JUDGE:	ends confirmation:	 0: 0: 3
+66:	IMM 8:	wants certificate:	 0: 0: 3
+67:	IMM 10:	wants certificate:	 0: 0: 3
+68:	IMM 9:	wants certificate:	 0: 0: 3
+69:	JUDGE:	leaves:	 0: 0: 3
+70:	JUDGE:	finishes
+71:	IMM 8:	got certificate:	 0: 0: 3
+72:	IMM 8:	leaves:	 0: 0: 2
+73:	IMM 9:	got certificate:	 0: 0: 3
+74:	IMM 9:	leaves:	 0: 0: 1
+75:	IMM 10:	got certificate:	 0: 0: 1
+76:	IMM 10:	leaves:	 0: 0: 0

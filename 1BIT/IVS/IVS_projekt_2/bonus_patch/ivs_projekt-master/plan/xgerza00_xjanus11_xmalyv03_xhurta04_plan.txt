@@ -1,0 +1,50 @@
+Termíny: 
+12.3. - Vytvoření repozitáře na Gitlab
+18.3. - Plán 
+20.3. - TDD Testy pro knihovnu
+25.3. - Matematická knihovna
+27.3. - Makefile
+29.3. - Mockup program kalkulačky
+8.4. - Mockup GUI
+10.4. - Finální produkt - Linking
+12.4. - Instalátor
+15.4. - Manuály a dokumentace
+18.4. - Doladění detailů
+19.4. - Zkušební instalace
+23.4. - Deadline
+9.5. - Problémy 
+
+
+Úkoly:
+Filip Januška - xjanus11:
+Matematická knihovna (definície operácií a funkcií) - knihovna.h
+Dokumentácia knihovny
+Makefile (nalinkovať všetko)
+Install-Uninstall
+
+David Hurta - xhurta04:
+Grafické rozhraní (tkinter)
+Dokumentace
+ReadMe
+Debugging
+Průběžná kontrola vývoje softwaru
+
+Martin Gerža - xgerza00:
+Vytvoření a správa repozitáře
+Vytvoření testů pro matematickou knihovnu
+Profiling
+Informace o profilingu
+
+Vojtěch Malý- xmalyv03:
+Program kalkulačky
+Uživatelská příručka
+Manual
+	
+
+Komunikační kanály: Discord, Messenger
+Pravidla pro komunikaci: Hovory přes aplikaci Discord, vždy dle předešlé domluvy na termínu.
+
+
+Verzovací systém:
+GIT - www.gitlab.com
+https://gitlab.com/martin.gerza/ivs_projekt

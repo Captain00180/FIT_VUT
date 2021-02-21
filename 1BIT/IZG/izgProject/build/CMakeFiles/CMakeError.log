@@ -1,0 +1,754 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7baa4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7baa4.dir/build.make CMakeFiles/cmTC_7baa4.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7baa4.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -std=gnu99 -o CMakeFiles/cmTC_7baa4.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: ‘-mpreferred-stack-boundary=2’ is not between 3 and 12
+gmake[1]: *** [CMakeFiles/cmTC_7baa4.dir/build.make:86: CMakeFiles/cmTC_7baa4.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_7baa4/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8cbef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8cbef.dir/build.make CMakeFiles/cmTC_8cbef.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cbef.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec   -std=gnu99 -o CMakeFiles/cmTC_8cbef.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+gmake[1]: *** [CMakeFiles/cmTC_8cbef.dir/build.make:86: CMakeFiles/cmTC_8cbef.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_8cbef/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4d161/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d161.dir/build.make CMakeFiles/cmTC_4d161.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d161.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_ALTIVEC -maltivec   -std=gnu99 -o CMakeFiles/cmTC_4d161.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option ‘-maltivec’
+gmake[1]: *** [CMakeFiles/cmTC_4d161.dir/build.make:86: CMakeFiles/cmTC_4d161.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_4d161/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6be89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6be89.dir/build.make CMakeFiles/cmTC_6be89.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6be89.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_6be89.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6be89.dir/build.make:86: CMakeFiles/cmTC_6be89.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_6be89/fast] Error 2
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2494e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2494e.dir/build.make CMakeFiles/cmTC_2494e.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2494e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_2494e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2494e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2494e.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_2494e.dir/CheckFunctionExists.c.o  -o cmTC_2494e 
+/usr/bin/ld: CMakeFiles/cmTC_2494e.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2494e.dir/build.make:107: cmTC_2494e] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_2494e/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2593f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2593f.dir/build.make CMakeFiles/cmTC_2593f.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2593f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_2593f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2593f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2593f.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_2593f.dir/CheckFunctionExists.c.o  -o cmTC_2593f 
+/usr/bin/ld: CMakeFiles/cmTC_2593f.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2593f.dir/build.make:107: cmTC_2593f] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_2593f/fast] Error 2
+
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a23db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a23db.dir/build.make CMakeFiles/cmTC_a23db.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a23db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_a23db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a23db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23db.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev    -rdynamic CMakeFiles/cmTC_a23db.dir/CheckFunctionExists.c.o  -o cmTC_a23db 
+/usr/bin/ld: CMakeFiles/cmTC_a23db.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a23db.dir/build.make:107: cmTC_a23db] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_a23db/fast] Error 2
+
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_11158/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11158.dir/build.make CMakeFiles/cmTC_11158.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11158.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_11158.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11158.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr    -rdynamic CMakeFiles/cmTC_11158.dir/CheckFunctionExists.c.o  -o cmTC_11158 
+/usr/bin/ld: CMakeFiles/cmTC_11158.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_11158.dir/build.make:107: cmTC_11158] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_11158/fast] Error 2
+
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9562e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9562e.dir/build.make CMakeFiles/cmTC_9562e.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9562e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_9562e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9562e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9562e.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr    -rdynamic CMakeFiles/cmTC_9562e.dir/CheckFunctionExists.c.o  -o cmTC_9562e 
+/usr/bin/ld: CMakeFiles/cmTC_9562e.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9562e.dir/build.make:107: cmTC_9562e] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_9562e/fast] Error 2
+
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ce077/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ce077.dir/build.make CMakeFiles/cmTC_ce077.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce077.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_ce077.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce077.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa    -rdynamic CMakeFiles/cmTC_ce077.dir/CheckFunctionExists.c.o  -o cmTC_ce077 
+/usr/bin/ld: CMakeFiles/cmTC_ce077.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ce077.dir/build.make:107: cmTC_ce077] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ce077/fast] Error 2
+
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_edf77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_edf77.dir/build.make CMakeFiles/cmTC_edf77.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edf77.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_edf77.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_edf77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edf77.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa    -rdynamic CMakeFiles/cmTC_edf77.dir/CheckFunctionExists.c.o  -o cmTC_edf77 
+/usr/bin/ld: CMakeFiles/cmTC_edf77.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_edf77.dir/build.make:107: cmTC_edf77] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_edf77/fast] Error 2
+
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e9428/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9428.dir/build.make CMakeFiles/cmTC_e9428.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9428.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_e9428.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9428.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa    -rdynamic CMakeFiles/cmTC_e9428.dir/CheckFunctionExists.c.o  -o cmTC_e9428 
+/usr/bin/ld: CMakeFiles/cmTC_e9428.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e9428.dir/build.make:107: cmTC_e9428] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_e9428/fast] Error 2
+
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a7b7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7b7b.dir/build.make CMakeFiles/cmTC_a7b7b.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7b7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_a7b7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7b7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b7b.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa    -rdynamic CMakeFiles/cmTC_a7b7b.dir/CheckFunctionExists.c.o  -o cmTC_a7b7b 
+/usr/bin/ld: CMakeFiles/cmTC_a7b7b.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a7b7b.dir/build.make:107: cmTC_a7b7b] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_a7b7b/fast] Error 2
+
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_177a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_177a1.dir/build.make CMakeFiles/cmTC_177a1.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_177a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_177a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_177a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_177a1.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa    -rdynamic CMakeFiles/cmTC_177a1.dir/CheckFunctionExists.c.o  -o cmTC_177a1 
+/usr/bin/ld: CMakeFiles/cmTC_177a1.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_177a1.dir/build.make:107: cmTC_177a1] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_177a1/fast] Error 2
+
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3b623/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b623.dir/build.make CMakeFiles/cmTC_3b623.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b623.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_3b623.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b623.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa    -rdynamic CMakeFiles/cmTC_3b623.dir/CheckFunctionExists.c.o  -o cmTC_3b623 
+/usr/bin/ld: CMakeFiles/cmTC_3b623.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3b623.dir/build.make:107: cmTC_3b623] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_3b623/fast] Error 2
+
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9ced5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ced5.dir/build.make CMakeFiles/cmTC_9ced5.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ced5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_9ced5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ced5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ced5.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp    -rdynamic CMakeFiles/cmTC_9ced5.dir/CheckFunctionExists.c.o  -o cmTC_9ced5 
+/usr/bin/ld: CMakeFiles/cmTC_9ced5.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9ced5.dir/build.make:107: cmTC_9ced5] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_9ced5/fast] Error 2
+
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1865a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1865a.dir/build.make CMakeFiles/cmTC_1865a.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1865a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_1865a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1865a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1865a.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp    -rdynamic CMakeFiles/cmTC_1865a.dir/CheckFunctionExists.c.o  -o cmTC_1865a 
+/usr/bin/ld: CMakeFiles/cmTC_1865a.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1865a.dir/build.make:107: cmTC_1865a] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_1865a/fast] Error 2
+
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a75da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a75da.dir/build.make CMakeFiles/cmTC_a75da.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a75da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_a75da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a75da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a75da.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname    -rdynamic CMakeFiles/cmTC_a75da.dir/CheckFunctionExists.c.o  -o cmTC_a75da 
+/usr/bin/ld: CMakeFiles/cmTC_a75da.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a75da.dir/build.make:107: cmTC_a75da] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_a75da/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_99373/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99373.dir/build.make CMakeFiles/cmTC_99373.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99373.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_99373.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_99373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99373.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open    -rdynamic CMakeFiles/cmTC_99373.dir/CheckFunctionExists.c.o  -o cmTC_99373  -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_99373.dir/build.make:107: cmTC_99373] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_99373/fast] Error 2
+
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2666b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2666b.dir/build.make CMakeFiles/cmTC_2666b.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2666b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_2666b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘alloca’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2666b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2666b.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_2666b.dir/CheckFunctionExists.c.o  -o cmTC_2666b 
+/usr/bin/ld: CMakeFiles/cmTC_2666b.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_2666b.dir/build.make:107: cmTC_2666b] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_2666b/fast] Error 2
+
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ccca4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccca4.dir/build.make CMakeFiles/cmTC_ccca4.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccca4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_ccca4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ccca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccca4.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_ccca4.dir/CheckFunctionExists.c.o  -o cmTC_ccca4 
+/usr/bin/ld: CMakeFiles/cmTC_ccca4.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ccca4.dir/build.make:107: cmTC_ccca4] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ccca4/fast] Error 2
+
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b0816/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0816.dir/build.make CMakeFiles/cmTC_b0816.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0816.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_b0816.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: audio/audiolib.h: No such file or directory
+    1 | #include <audio/audiolib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b0816.dir/build.make:86: CMakeFiles/cmTC_b0816.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b0816/fast] Error 2
+
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_04a3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04a3c.dir/build.make CMakeFiles/cmTC_04a3c.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04a3c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_04a3c.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sndio.h: No such file or directory
+    1 | #include <sndio.h>
+      |          ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_04a3c.dir/build.make:86: CMakeFiles/cmTC_04a3c.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_04a3c/fast] Error 2
+
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_40b26/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40b26.dir/build.make CMakeFiles/cmTC_40b26.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40b26.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_40b26.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: samplerate.h: No such file or directory
+    1 | #include <samplerate.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_40b26.dir/build.make:86: CMakeFiles/cmTC_40b26.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_40b26/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9ab40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ab40.dir/build.make CMakeFiles/cmTC_9ab40.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ab40.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -std=gnu99 -o CMakeFiles/cmTC_9ab40.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: bcm_host.h: No such file or directory
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9ab40.dir/build.make:86: CMakeFiles/cmTC_9ab40.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_9ab40/fast] Error 2
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Determining if the include file X11/extensions/Xinerama.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9d6b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d6b6.dir/build.make CMakeFiles/cmTC_9d6b6.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d6b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_9d6b6.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: X11/extensions/Xinerama.h: No such file or directory
+    1 | #include <X11/extensions/Xinerama.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9d6b6.dir/build.make:86: CMakeFiles/cmTC_9d6b6.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_9d6b6/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dcb5d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcb5d.dir/build.make CMakeFiles/cmTC_dcb5d.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcb5d.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_VIDEO_OPENGLES_V1   -std=gnu99 -o CMakeFiles/cmTC_dcb5d.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:2:16: fatal error: GLES/gl.h: No such file or directory
+    2 |       #include <GLES/gl.h>
+      |                ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_dcb5d.dir/build.make:86: CMakeFiles/cmTC_dcb5d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_dcb5d/fast] Error 2
+
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_37a89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37a89.dir/build.make CMakeFiles/cmTC_37a89.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37a89.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_VIDEO_VIVANTE_VDK   -std=gnu99 -o CMakeFiles/cmTC_37a89.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: gc_vdk.h: No such file or directory
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_37a89.dir/build.make:86: CMakeFiles/cmTC_37a89.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_37a89/fast] Error 2
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ecf2b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecf2b.dir/build.make CMakeFiles/cmTC_ecf2b.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecf2b.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_VIDEO_VIVANTE_EGL_FB   -std=gnu99 -o CMakeFiles/cmTC_ecf2b.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:4:18: fatal error: EGL/eglvivante.h: No such file or directory
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ecf2b.dir/build.make:86: CMakeFiles/cmTC_ecf2b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ecf2b/fast] Error 2
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_db0b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db0b7.dir/build.make CMakeFiles/cmTC_db0b7.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db0b7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_db0b7.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libudev.h: No such file or directory
+    1 | #include <libudev.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_db0b7.dir/build.make:86: CMakeFiles/cmTC_db0b7.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_db0b7/fast] Error 2
+
+
+
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_49b0c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_49b0c.dir/build.make CMakeFiles/cmTC_49b0c.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49b0c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_49b0c.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: fcitx/frontend.h: No such file or directory
+    1 | #include <fcitx/frontend.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_49b0c.dir/build.make:86: CMakeFiles/cmTC_49b0c.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_49b0c/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3d16f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d16f.dir/build.make CMakeFiles/cmTC_3d16f.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d16f.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_INPUT_TSLIB   -std=gnu99 -o CMakeFiles/cmTC_3d16f.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:2:18: fatal error: tslib.h: No such file or directory
+    2 |         #include "tslib.h"
+      |                  ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_3d16f.dir/build.make:86: CMakeFiles/cmTC_3d16f.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_3d16f/fast] Error 2
+
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_349d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_349d3.dir/build.make CMakeFiles/cmTC_349d3.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_349d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_349d3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_349d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_349d3.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_349d3.dir/CheckFunctionExists.c.o  -o cmTC_349d3  -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_349d3.dir/build.make:107: cmTC_349d3] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_349d3/fast] Error 2
+
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2403b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2403b.dir/build.make CMakeFiles/cmTC_2403b.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2403b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_2403b.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: usb.h: No such file or directory
+    1 | #include <usb.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2403b.dir/build.make:86: CMakeFiles/cmTC_2403b.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_2403b/fast] Error 2
+
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f50ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f50ca.dir/build.make CMakeFiles/cmTC_f50ca.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f50ca.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos    -o CMakeFiles/cmTC_f50ca.dir/CheckIncludeFile.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libusb.h: No such file or directory
+    1 | #include <libusb.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f50ca.dir/build.make:86: CMakeFiles/cmTC_f50ca.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_f50ca/fast] Error 2
+
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b4a33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4a33.dir/build.make CMakeFiles/cmTC_b4a33.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4a33.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_b4a33.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b4a33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4a33.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_b4a33.dir/CheckFunctionExists.c.o  -o cmTC_b4a33  -lusb 
+/usr/bin/ld: cannot find -lusb
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b4a33.dir/build.make:107: cmTC_b4a33] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b4a33/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6dfe7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6dfe7.dir/build.make CMakeFiles/cmTC_6dfe7.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6dfe7.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_USBHID   -std=gnu99 -o CMakeFiles/cmTC_6dfe7.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:10:19: fatal error: dev/usb/usb.h: No such file or directory
+   10 |         # include <dev/usb/usb.h>
+      |                   ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6dfe7.dir/build.make:86: CMakeFiles/cmTC_6dfe7.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_6dfe7/fast] Error 2
+
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c7ba0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7ba0.dir/build.make CMakeFiles/cmTC_c7ba0.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7ba0.dir/src.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_PTHREAD_NP_H   -D_REENTRANT -pthread   -std=gnu99 -o CMakeFiles/cmTC_c7ba0.dir/src.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c
+/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp/src.c:3:20: fatal error: pthread_np.h: No such file or directory
+    3 |           #include <pthread_np.h>
+      |                    ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c7ba0.dir/build.make:86: CMakeFiles/cmTC_c7ba0.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_c7ba0/fast] Error 2
+
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_93769/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93769.dir/build.make CMakeFiles/cmTC_93769.dir/build
+gmake[1]: Entering directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93769.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_93769.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93769.dir/link.txt --verbose=1
+/usr/bin/cc -g -O3 -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_93769.dir/CheckFunctionExists.c.o  -o cmTC_93769 
+/usr/bin/ld: CMakeFiles/cmTC_93769.dir/CheckFunctionExists.c.o: in function `main':
+/usr/share/cmake/Modules/CheckFunctionExists.c:17: undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_93769.dir/build.make:107: cmTC_93769] Error 1
+gmake[1]: Leaving directory '/home/filipjanuska/Desktop/IZG/izgProject/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_93769/fast] Error 2
+
+
+

@@ -1,0 +1,325 @@
+Jednosm�rn� v�zan� line�rn� seznam
+==================================
+
+[TEST01]
+Inicializace seznamu
+~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST02]
+Pokus o vol�n� CopyFirst nad pr�zdn�m seznamem => chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace CopyFirst volala funkci Error.
+
+[TEST03]
+Zavol�me 4x operaci InsertFirst.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 1
+-----------------
+-----------------
+	 2
+	 1
+-----------------
+-----------------
+	 3
+	 2
+	 1
+-----------------
+-----------------
+	 4
+	 3
+	 2
+	 1
+-----------------
+
+[TEST04]
+Seznam je neaktivn� -- ov���me si to vol�n�m funce Active.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace Active vrac� 0.
+
+[TEST05]
+Otestujeme funkci First p�i neaktivn�m seznamu a funkci Active.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4	 <= toto je aktivn� prvek 
+	 3
+	 2
+	 1
+-----------------
+Operace Active vrac� 1.
+
+[TEST06]
+Test funkce Copy p�i aktivit� na prvn�m prvku
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace Copy vrac� obsah 4.
+
+[TEST07]
+Test funkce Succ -- vol�me 3x, aktivita bude na posledn�m prvku.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4
+	 3	 <= toto je aktivn� prvek 
+	 2
+	 1
+-----------------
+-----------------
+	 4
+	 3
+	 2	 <= toto je aktivn� prvek 
+	 1
+-----------------
+-----------------
+	 4
+	 3
+	 2
+	 1	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+
+[TEST08]
+Aktualizujeme obsah aktivn�ho prvku.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4
+	 3
+	 2
+	 10	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+Operace Copy vrac� obsah 10.
+
+[TEST09]
+Provedeme je�t� jednou Succ -- aktivita se ztrat�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 0.
+
+[TEST10]
+Pokus�me se o aktualizaci p�i neaktivn�m seznamu => nic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 0.
+
+[TEST11]
+Pokus o Copy p�i neaktivn�m seznamu => o�et�en� chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace Copy volala funkci Error.
+
+[TEST12]
+Operace Succ p�i neaktivn�m seznamu nesm� zhavarovat.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 0.
+
+[TEST13]
+Pou�it� operace CopyFirst p�i neaktivn�m seznamu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operace CopyFirst vrac� obsah 4.
+
+[TEST14]
+Vyzkou��me operaci DeleteFirst p�i neaktivn�m seznamu,
+p�i�em� smazan� prvek zase vr�t�me zp�tky do seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 3
+	 2
+	 10
+-----------------
+-----------------
+	 4
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 0.
+
+[TEST10]
+Operace First nastav� aktivitu na prvn� prvek.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 4	 <= toto je aktivn� prvek 
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 1.
+
+[TEST11]
+DeleteFirst aktivn�ho prvku povede ke ztr�t� aktivity.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 3
+	 2
+	 10
+-----------------
+Operace Active vrac� 0.
+
+[TEST12]
+U�it�m operac� First a Succ nastav�me aktivitu na konec seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 3	 <= toto je aktivn� prvek 
+	 2
+	 10
+-----------------
+-----------------
+	 3
+	 2	 <= toto je aktivn� prvek 
+	 10
+-----------------
+-----------------
+	 3
+	 2
+	 10	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+
+[TEST13]
+Operace PostDelete p�i aktivit� na posledn�m prvku ned�l� nic.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 3
+	 2
+	 10	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+
+[TEST14]
+Nastav�me aktivitu na za��tek a dvakr�t zavol�me PostDelete.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 3	 <= toto je aktivn� prvek 
+	 2
+	 10
+-----------------
+Operace Active vrac� 1.
+-----------------
+	 3	 <= toto je aktivn� prvek 
+	 10
+-----------------
+-----------------
+	 3	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+
+[TEST15]
+Otestujeme InsertFirst p�i seznamu s jedin�m prvkem, nastav�me
+aktivitu na nov� vlo�en� prvek a op�t posuneme aktivitu na konec
+seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 101
+	 3	 <= toto je aktivn� prvek 
+-----------------
+-----------------
+	 101	 <= toto je aktivn� prvek 
+	 3
+-----------------
+-----------------
+	 101
+	 3	 <= toto je aktivn� prvek 
+-----------------
+Operace Active vrac� 1.
+
+[TEST16]
+Operac� PostInsert vlo��me nov� prvek za posledn� prvek seznamu.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 101
+	 3	 <= toto je aktivn� prvek 
+	 102
+-----------------
+Operace Active vrac� 1.
+
+[TEST17]
+Nastav�me aktivitu na prvn� prvek seznamu a vyzkou��me PostInsert.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+	 101	 <= toto je aktivn� prvek 
+	 3
+	 102
+-----------------
+-----------------
+	 101	 <= toto je aktivn� prvek 
+	 103
+	 3
+	 102
+-----------------
+Operace Active vrac� 1.
+
+[TEST18]
+Otestujeme funk�nost operace DisposeList.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST24]
+
+N�sleduje testov�n� operac� p�i pr�zdn�m seznamu
+================================================
+Operace Active vrac� 0.
+
+[TEST25]
+DeleteFirst p�i pr�zdn�m seznamu => nic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST26]
+Test PostDelete p�i pr�zdn�m seznamu => nic 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+-----------------
+-----------------
+
+[TEST27]
+Je�t� jednou DisposeList => ��dn� zm�na
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+
+[TEST28]
+First ani PostInsert nad pr�zdn�m seznamem nic ned�l�.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+
+[TEST29]
+Copy a CopyFirst nad pr�zdn�m seznamem => o�et�en� chyba
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*ERROR* The program has performed an illegal operation.
+Operace Copy volala funkci Error.
+*ERROR* The program has performed an illegal operation.
+Operace CopyFirst volala funkci Error.
+
+[TEST30]
+Actualize ani Succ by nem�ly m�t nad pr�zdn�m seznamem ��dny efekt.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------
+-----------------
+-----------------
+-----------------
+Operace Active vrac� 0.
+
+----------------------- konec p��kladu c201 -------------------------
+

@@ -1,0 +1,493 @@
+
+*******************
+[TEST 1]
+DLInitList
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 2]
+DLDisposeList - pro pr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 3]
+DLFirst - pro pr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 4]
+DLLast - pro pr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 5]
+DLCopyFirst - pro pr�zdn� seznam
+*ERROR* The program has performed an illegal operation.
+V�sledek: -1
+Posledn� operace hl�s� chybu.
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 6]
+DLCopyLast - pro pr�zdn� seznam
+*ERROR* The program has performed an illegal operation.
+V�sledek: -1
+Posledn� operace hl�s� chybu.
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 7]
+DLDeleteFirst - pro pr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 8]
+DLDeleteLast - pro pr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 9]
+DLInsertFirst - pro pr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+1       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 10]
+DLInsertFirst - pro nepr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 11]
+DLInsertLast - pro nepr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 12]
+DLCopyFirst - pro nepr�zdn� seznam
+V�sledek: 2
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 13]
+DLCopyLast - pro nepr�zdn� seznam
+V�sledek: 3
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 14]
+DLCopy - pro neaktivn� seznam
+*ERROR* The program has performed an illegal operation.
+V�sledek: -1
+Posledn� operace hl�s� chybu.
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 15]
+DLActualize - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 16]
+DLSucc - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 17]
+DLPred - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 18]
+DLPostDelete - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 19]
+DLPreDelete - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 20]
+DLPostInsert - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 21]
+DLPreInsert - pro neaktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 22]
+DLFirst - pro nepr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      Aktivn� prvek
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 23]
+DLCopy - pro aktivn� seznam
+V�sledek: 2
+-------------------
+Hodnota Ov��en� Aktivita
+2       OK      Aktivn� prvek
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 24]
+DLActualize - pro aktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 25]
+DLSucc - pro aktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      Aktivn� prvek
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 26]
+DLPred - pro aktivn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 27]
+DLPred - pro aktivn� prvn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 28]
+DLLast - pro nepr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      Aktivn� prvek
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 29]
+DLSucc - pro aktivn� posledn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na posledn� prvek...
+
+*******************
+[TEST 30]
+DLPostInsert - pro aktivn� posledn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      Aktivn� prvek
+8       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 31]
+DLPostInsert - uprost�ed seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      Aktivn� prvek
+9       OK      
+8       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na prvn� prvek...
+
+*******************
+[TEST 32]
+DLPreInsert - pro aktivn� prvn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+10      OK      
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+9       OK      
+8       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 33]
+DLPreInsert - uprost�ed seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+10      OK      
+11      OK      
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+9       OK      
+8       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na prvn� prvek...
+
+*******************
+[TEST 34]
+DLDeleteFirst - pro nepr�zdn� seznam, ma�e se aktivn� prvek
+-------------------
+Hodnota Ov��en� Aktivita
+11      OK      
+7       OK      
+1       OK      
+3       OK      
+9       OK      
+8       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na posledn� prvek...
+
+*******************
+[TEST 35]
+DLDeleteLast - pro nepr�zdn� seznam, ma�e se aktivn� prvek
+-------------------
+Hodnota Ov��en� Aktivita
+11      OK      
+7       OK      
+1       OK      
+3       OK      
+9       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na druh� prvek...
+
+*******************
+[TEST 36]
+DLPreDelete - ma�e se prvn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+9       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 37]
+DLPreDelete - aktivn� prvn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      Aktivn� prvek
+1       OK      
+3       OK      
+9       OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na druh� prvek od konce...
+
+*******************
+[TEST 38]
+DLPostDelete - ma�e se posledn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      Aktivn� prvek
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 39]
+DLPostDelete - aktivn� posledn� prvek seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+1       OK      
+3       OK      Aktivn� prvek
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 40]
+DLPreDelete - uprost�ed seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      
+3       OK      Aktivn� prvek
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�id�v�m prvek na konec seznamu...
+P�esouv�m aktivitu seznamu na prvn� prvek...
+
+*******************
+[TEST 41]
+DLPostDelete - uprost�ed seznamu
+-------------------
+Hodnota Ov��en� Aktivita
+7       OK      Aktivn� prvek
+12      OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+*******************
+[TEST 42]
+DLDisposeList - pro nepr�zdn� seznam
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+*******************
+[TEST 43]
+DLInsertLast - pro pr�zdn� seznam
+-------------------
+Hodnota Ov��en� Aktivita
+13      OK      
+Ukazatel na aktivn� prvek OK
+-------------------
+
+P�esouv�m aktivitu seznamu na prvn� prvek...
+
+*******************
+[TEST 44]
+DLDeleteFirst - maz�n� posledn�ho prvku, prvek je aktivn�
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+
+Vkl�d�m do seznamu prvek a nastavuji mu aktivitu...
+
+*******************
+[TEST 45]
+DLDeleteLast - maz�n� posledn�ho prvku
+-------------------
+Seznam je pr�zdn�, ukazatele jsou spr�vn�.
+-------------------
+

@@ -1,0 +1,957 @@
+[
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/main.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/main.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/main.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/gpu.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/gpu.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/gpu.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/window.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/window.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/window.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/application.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/application.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/application.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/bunny.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/bunny.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/bunny.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/triangleMethod.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/triangleMethod.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/triangleMethod.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/triangleClip1Method.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/triangleClip1Method.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/triangleClip1Method.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/triangleClip2Method.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/triangleClip2Method.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/triangleClip2Method.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/triangle3DMethod.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/triangle3DMethod.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/triangle3DMethod.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/triangleBufferMethod.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/triangleBufferMethod.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/triangleBufferMethod.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/czFlagMethod.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/czFlagMethod.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/czFlagMethod.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/student/phongMethod.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/student/phongMethod.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/student/phongMethod.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/renderPhongFrame.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/renderPhongFrame.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/renderPhongFrame.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/takeScreenShot.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/takeScreenShot.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/takeScreenShot.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/conformanceTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/conformanceTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/conformanceTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/performanceTest.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/performanceTest.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/performanceTest.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/testCommon.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/testCommon.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/testCommon.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/bufferTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/bufferTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/bufferTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/vertexPullerTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/vertexPullerTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/vertexPullerTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/programTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/programTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/programTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/framebufferTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/framebufferTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/framebufferTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/vertexShaderTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/vertexShaderTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/vertexShaderTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/fragmentShaderTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/fragmentShaderTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/fragmentShaderTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/clippingTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/clippingTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/clippingTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/izgProject.dir/tests/phongMethodTests.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/tests/phongMethodTests.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/tests/phongMethodTests.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src  -g   -std=gnu++14 -o CMakeFiles/MealyMachine.dir/src/MealyMachine/MealyMachine.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src/MealyMachine/MealyMachine.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src/MealyMachine/MealyMachine.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine  -g   -std=gnu++14 -o CMakeFiles/TxtUtils.dir/src/TxtUtils/TxtUtils.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src/TxtUtils/TxtUtils.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src/TxtUtils/TxtUtils.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/ArgumentViewer.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/ArgumentViewer.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/ArgumentViewer.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/ArgumentViewerImpl.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ArgumentViewerImpl.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ArgumentViewerImpl.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/Format.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/Format.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/Format.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/ValueFormat.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ValueFormat.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ValueFormat.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/CommonFunctions.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/CommonFunctions.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/CommonFunctions.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/LineSplitter.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/LineSplitter.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/LineSplitter.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/IsPresentFormat.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/IsPresentFormat.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/IsPresentFormat.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/Globals.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/Globals.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/Globals.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/ArgumentListFormat.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ArgumentListFormat.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ArgumentListFormat.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/ContextFormat.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ContextFormat.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/ContextFormat.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer -I/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/MealyMachine -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils/src -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/TxtUtils -I/home/filipjanuska/Desktop/IZG/izgProject/TxtUtils  -g   -std=gnu++14 -o CMakeFiles/ArgumentViewer.dir/src/ArgumentViewer/private/StringVectorFormat.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/StringVectorFormat.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/ArgumentViewer/src/ArgumentViewer/private/StringVectorFormat.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/BasicCamera.dir/src/BasicCamera/FreeLookCamera.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/FreeLookCamera.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/FreeLookCamera.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/BasicCamera.dir/src/BasicCamera/OrbitCamera.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/OrbitCamera.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/OrbitCamera.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera",
+  "command": "/usr/bin/c++   -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera -I/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src -I/home/filipjanuska/Desktop/IZG/izgProject/glm-0.9.9.6  -g   -std=gnu++17 -o CMakeFiles/BasicCamera.dir/src/BasicCamera/PerspectiveCamera.cpp.o -c /home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/PerspectiveCamera.cpp",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/BasicCamera/src/BasicCamera/PerspectiveCamera.cpp"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL_assert.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_assert.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_assert.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_dataqueue.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_dataqueue.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL_error.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_error.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_error.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL_hints.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_hints.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_hints.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/SDL_log.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_log.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/SDL_log.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/atomic/SDL_atomic.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/atomic/SDL_atomic.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/atomic/SDL_spinlock.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/atomic/SDL_spinlock.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiocvt.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiocvt.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiodev.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiodev.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiotypecvt.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_audiotypecvt.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_mixer.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_mixer.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_wave.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/SDL_wave.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/cpuinfo/SDL_cpuinfo.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/cpuinfo/SDL_cpuinfo.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/dynapi/SDL_dynapi.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/dynapi/SDL_dynapi.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_clipboardevents.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_clipboardevents.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_displayevents.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_displayevents.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_dropevents.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_dropevents.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_events.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_events.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_gesture.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_gesture.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_keyboard.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_keyboard.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_mouse.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_mouse.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_quit.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_quit.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_touch.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_touch.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_windowevents.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/events/SDL_windowevents.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/file/SDL_rwops.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/file/SDL_rwops.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_atan2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_atan2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_exp.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_exp.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_fmod.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_fmod.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_log.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_log.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_log.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_log10.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_log10.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_pow.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_pow.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_rem_pio2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_rem_pio2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_sqrt.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/e_sqrt.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_cos.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_cos.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_rem_pio2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_rem_pio2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_sin.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_sin.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_tan.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/k_tan.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_atan.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_atan.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_copysign.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_copysign.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_cos.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_cos.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_fabs.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_fabs.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_floor.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_floor.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_scalbn.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_scalbn.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_sin.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_sin.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_tan.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/libm/s_tan.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_d3dmath.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_d3dmath.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_render.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_render.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_yuv_sw.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/SDL_yuv_sw.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d/SDL_render_d3d.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d/SDL_render_d3d.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d/SDL_shaders_d3d.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d/SDL_shaders_d3d.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d11/SDL_render_d3d11.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d11/SDL_render_d3d11.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d11/SDL_shaders_d3d11.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/direct3d11/SDL_shaders_d3d11.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengl/SDL_render_gl.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengl/SDL_render_gl.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengl/SDL_shaders_gl.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengl/SDL_shaders_gl.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles/SDL_render_gles.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles/SDL_render_gles.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles2/SDL_render_gles2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles2/SDL_render_gles2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles2/SDL_shaders_gles2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/opengles2/SDL_shaders_gles2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/psp/SDL_render_psp.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/psp/SDL_render_psp.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendfillrect.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendfillrect.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendline.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendline.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendpoint.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_blendpoint.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_drawline.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_drawline.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_drawpoint.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_drawpoint.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_render_sw.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_render_sw.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_rotate.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/render/software/SDL_rotate.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_getenv.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_getenv.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_iconv.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_iconv.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_malloc.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_malloc.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_qsort.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_qsort.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_stdlib.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_stdlib.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_string.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/stdlib/SDL_string.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/SDL_thread.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/SDL_thread.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/timer/SDL_timer.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/timer/SDL_timer.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_RLEaccel.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_RLEaccel.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_0.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_0.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_1.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_1.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_A.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_A.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_N.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_N.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_auto.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_auto.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_copy.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_copy.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_slow.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_blit_slow.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_bmp.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_bmp.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_clipboard.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_clipboard.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_egl.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_egl.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_fillrect.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_fillrect.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_pixels.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_pixels.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_rect.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_rect.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_shape.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_shape.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_stretch.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_stretch.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_surface.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_surface.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_video.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_video.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_vulkan_utils.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_vulkan_utils.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_yuv.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/SDL_yuv.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/yuv2rgb/yuv_rgb.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/yuv2rgb/yuv_rgb.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/SDL_gamecontroller.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/SDL_gamecontroller.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/SDL_joystick.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/SDL_joystick.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/haptic/SDL_haptic.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/haptic/SDL_haptic.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/sensor/SDL_sensor.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/sensor/SDL_sensor.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/power/SDL_power.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/power/SDL_power.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/dummy/SDL_dummyaudio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/dummy/SDL_dummyaudio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/disk/SDL_diskaudio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/disk/SDL_diskaudio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/loadso/dlopen/SDL_sysloadso.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/loadso/dlopen/SDL_sysloadso.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/loadso/dlopen/SDL_sysloadso.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullevents.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullevents.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullframebuffer.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullframebuffer.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullvideo.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/dummy/SDL_nullvideo.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/dsp/SDL_dspaudio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/dsp/SDL_dspaudio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/dsp/SDL_dspaudio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/audio/alsa/SDL_alsa_audio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/alsa/SDL_alsa_audio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/audio/alsa/SDL_alsa_audio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11clipboard.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11clipboard.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11clipboard.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11dyn.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11dyn.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11dyn.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11events.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11events.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11events.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11framebuffer.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11framebuffer.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11framebuffer.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11keyboard.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11keyboard.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11keyboard.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11messagebox.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11messagebox.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11messagebox.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11modes.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11modes.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11modes.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11mouse.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11mouse.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11mouse.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengl.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11opengl.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11opengl.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11opengles.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11opengles.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11opengles.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11shape.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11shape.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11shape.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11touch.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11touch.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11touch.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11video.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11video.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11video.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11vulkan.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11vulkan.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11vulkan.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11window.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11window.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11window.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/SDL_x11xinput2.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11xinput2.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/SDL_x11xinput2.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/edid-parse.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/edid-parse.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/edid-parse.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/video/x11/imKStoUCS.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/imKStoUCS.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/x11/imKStoUCS.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/unix/SDL_poll.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/unix/SDL_poll.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/unix/SDL_poll.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_dbus.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_dbus.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_dbus.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_evdev.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_evdev.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_evdev_kbd.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_evdev_kbd.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_evdev_kbd.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_fcitx.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_fcitx.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_fcitx.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_ibus.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_ibus.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_ibus.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_ime.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_ime.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_ime.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_threadprio.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_threadprio.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_threadprio.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/core/linux/SDL_udev.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_udev.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/core/linux/SDL_udev.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/haptic/linux/SDL_syshaptic.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/haptic/linux/SDL_syshaptic.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/haptic/linux/SDL_syshaptic.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/joystick/linux/SDL_sysjoystick.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/linux/SDL_sysjoystick.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/linux/SDL_sysjoystick.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/joystick/steam/SDL_steamcontroller.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/steam/SDL_steamcontroller.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/joystick/steam/SDL_steamcontroller.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systhread.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_systhread.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_systhread.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_sysmutex.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_sysmutex.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_sysmutex.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syscond.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_syscond.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_syscond.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_systls.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_systls.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_systls.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/thread/pthread/SDL_syssem.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_syssem.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/thread/pthread/SDL_syssem.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/power/linux/SDL_syspower.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/power/linux/SDL_syspower.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/power/linux/SDL_syspower.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/filesystem/unix/SDL_sysfilesystem.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/filesystem/unix/SDL_sysfilesystem.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/filesystem/unix/SDL_sysfilesystem.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/timer/unix/SDL_systimer.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/timer/unix/SDL_systimer.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/timer/unix/SDL_systimer.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2-static.dir/src/sensor/dummy/SDL_dummysensor.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/sensor/dummy/SDL_dummysensor.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/sensor/dummy/SDL_dummysensor.c"
+},
+{
+  "directory": "/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10",
+  "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug/SDL2-2.0.10/include -I/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/include   -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall  -g   -std=gnu99 -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o   -c /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/main/dummy/SDL_dummy_main.c",
+  "file": "/home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/main/dummy/SDL_dummy_main.c"
+}
+]

@@ -1,8 +1,8 @@
 /**********************************************************************
- * 		 	       proj2.c				                              *
- * 		    	    IOS Projekt 2			                          *
- * 		     Autor: Filip Januska, xjanus11		                      *
- * 		     	FIT VUT Brno,  2019/2020		                      *
+ * 		 	       proj2.c				      *
+ * 		    	    IOS Projekt 2			      *
+ * 		     Autor: Filip Januska, xjanus11		      *
+ * 		     	FIT VUT Brno,  2019/2020		      *
 **********************************************************************/
 
 

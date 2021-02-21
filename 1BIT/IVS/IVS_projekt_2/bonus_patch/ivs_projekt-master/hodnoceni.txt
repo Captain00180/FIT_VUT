@@ -1,0 +1,4 @@
+xgerza00 100 (testy, profiling)
+xjanus11 100 (mat. knih., instalátor)
+xhurta04 100 (GUI, kalkulačka)
+xmalyv03 100 (kalkulačka, manuály a dokumentace)

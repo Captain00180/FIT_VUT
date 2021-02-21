@@ -1,0 +1,141 @@
+/home/filipjanuska/Downloads/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/filipjanuska/Desktop/IZG/izgProject
+-- dynamic libasound -> libasound.so.2
+-- Checking for module 'jack'
+--   Package 'jack', required by 'virtual:world', not found
+-- Checking for module 'libpulse-simple'
+--   Package 'libpulse-simple', required by 'virtual:world', not found
+-- Checking for module 'esound'
+--   Package 'esound', required by 'virtual:world', not found
+-- Checking for modules 'bcm_host;brcmegl'
+--   Package 'bcm_host', required by 'virtual:world', not found
+--   Package 'brcmegl', required by 'virtual:world', not found
+-- dynamic libX11 -> libX11.so.6
+-- dynamic libXext -> libXext.so.6
+-- dynamic libXcursor -> libXcursor.so.1
+-- dynamic libXi -> libXi.so.6
+-- dynamic libXrandr -> libXrandr.so.2
+-- dynamic libXrender -> libXrender.so.1
+-- dynamic libXss -> libXss.so.1
+-- dynamic libXxf86vm -> libXxf86vm.so.1
+-- Checking for modules 'wayland-client;wayland-scanner;wayland-protocols;wayland-egl;wayland-cursor;egl;xkbcommon'
+--   Package 'wayland-client', required by 'virtual:world', not found
+--   Package 'wayland-scanner', required by 'virtual:world', not found
+--   Package 'wayland-protocols', required by 'virtual:world', not found
+--   Package 'wayland-egl', required by 'virtual:world', not found
+--   Package 'wayland-cursor', required by 'virtual:world', not found
+--   Package 'xkbcommon', required by 'virtual:world', not found
+-- Checking for modules 'libdrm;gbm;egl'
+--   Package 'gbm', required by 'virtual:world', not found
+-- Checking for one of the modules 'dbus-1;dbus'
+-- Checking for one of the modules 'ibus-1.0;ibus'
+-- 
+-- SDL2 was configured with the following options:
+-- 
+-- Platform: Linux-5.5.8-200.fc31.x86_64
+-- 64-bit:   TRUE
+-- Compiler: /usr/bin/cc
+-- 
+-- Subsystems:
+--   Atomic:	ON
+--   Audio:	ON
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Power:	ON
+--   Threads:	ON
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	ON
+--   Filesystem:	ON
+--   Dlopen:	ON
+--   Sensor:	ON
+-- 
+-- Options:
+--   3DNOW                  (Wanted: ON): ON
+--   ALSA                   (Wanted: ON): ON
+--   ALSA_SHARED            (Wanted: ON): ON
+--   ALTIVEC                (Wanted: ON): OFF
+--   ARTS                   (Wanted: ON): OFF
+--   ARTS_SHARED            (Wanted: ON): OFF
+--   ASSEMBLY               (Wanted: ON): ON
+--   ASSERTIONS             (Wanted: auto): auto
+--   BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF
+--   CLOCK_GETTIME          (Wanted: OFF): OFF
+--   DIRECTFB_SHARED        (Wanted: OFF): OFF
+--   DIRECTX                (Wanted: OFF): OFF
+--   DISKAUDIO              (Wanted: ON): ON
+--   DUMMYAUDIO             (Wanted: ON): ON
+--   ESD                    (Wanted: ON): OFF
+--   ESD_SHARED             (Wanted: ON): OFF
+--   FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF
+--   FUSIONSOUND            (Wanted: OFF): OFF
+--   FUSIONSOUND_SHARED     (Wanted: OFF): OFF
+--   GCC_ATOMICS            (Wanted: ON): ON
+--   HIDAPI                 (Wanted: OFF): OFF
+--   INPUT_TSLIB            (Wanted: ON): OFF
+--   JACK                   (Wanted: ON): OFF
+--   JACK_SHARED            (Wanted: ON): OFF
+--   KMSDRM_SHARED          (Wanted: ON): OFF
+--   LIBC                   (Wanted: ON): ON
+--   LIBSAMPLERATE          (Wanted: ON): OFF
+--   LIBSAMPLERATE_SHARED   (Wanted: ON): OFF
+--   MMX                    (Wanted: ON): ON
+--   NAS                    (Wanted: ON): OFF
+--   NAS_SHARED             (Wanted: ON): OFF
+--   OSS                    (Wanted: ON): ON
+--   PTHREADS               (Wanted: ON): ON
+--   PTHREADS_SEM           (Wanted: ON): ON
+--   PULSEAUDIO             (Wanted: ON): OFF
+--   PULSEAUDIO_SHARED      (Wanted: ON): OFF
+--   RENDER_D3D             (Wanted: OFF): OFF
+--   RPATH                  (Wanted: ON): ON
+--   SDL_DLOPEN             (Wanted: ON): ON
+--   SDL_STATIC_PIC         (Wanted: OFF): OFF
+--   SDL_TEST               (Wanted: OFF): OFF
+--   SNDIO                  (Wanted: ON): OFF
+--   SSE                    (Wanted: ON): ON
+--   SSE2                   (Wanted: ON): ON
+--   SSE3                   (Wanted: ON): ON
+--   SSEMATH                (Wanted: ON): OFF
+--   VIDEO_COCOA            (Wanted: OFF): OFF
+--   VIDEO_DIRECTFB         (Wanted: OFF): OFF
+--   VIDEO_DUMMY            (Wanted: ON): ON
+--   VIDEO_KMSDRM           (Wanted: ON): OFF
+--   VIDEO_OPENGL           (Wanted: ON): ON
+--   VIDEO_OPENGLES         (Wanted: ON): ON
+--   VIDEO_RPI              (Wanted: ON): OFF
+--   VIDEO_VIVANTE          (Wanted: ON): OFF
+--   VIDEO_VULKAN           (Wanted: ON): ON
+--   VIDEO_WAYLAND          (Wanted: ON): OFF
+--   VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF
+--   VIDEO_X11              (Wanted: ON): ON
+--   VIDEO_X11_XCURSOR      (Wanted: ON): ON
+--   VIDEO_X11_XINERAMA     (Wanted: ON): OFF
+--   VIDEO_X11_XINPUT       (Wanted: ON): ON
+--   VIDEO_X11_XRANDR       (Wanted: ON): ON
+--   VIDEO_X11_XSCRNSAVER   (Wanted: ON): ON
+--   VIDEO_X11_XSHAPE       (Wanted: ON): ON
+--   VIDEO_X11_XVM          (Wanted: ON): ON
+--   WASAPI                 (Wanted: OFF): OFF
+--   WAYLAND_SHARED         (Wanted: ON): OFF
+--   X11_SHARED             (Wanted: ON): ON
+-- 
+--  CFLAGS:         -idirafter /home/filipjanuska/Desktop/IZG/izgProject/SDL2-2.0.10/src/video/khronos -DHAVE_LINUX_VERSION_H
+--  EXTRA_CFLAGS:  -D_REENTRANT -I/usr/include -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+--  EXTRA_LDFLAGS: -Wl,--no-undefined;-pthread
+--  EXTRA_LIBS:    m;dl
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+--  Build Static Library with Position Independent Code: OFF
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CFLAGS and LDFLAGS environment variables correctly.
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/filipjanuska/Desktop/IZG/izgProject/cmake-build-debug

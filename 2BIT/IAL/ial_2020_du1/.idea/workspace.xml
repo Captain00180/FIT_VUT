@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9486a82a-1cd3-4e17-9a49-22cc19681252" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1iPgvvusyQ5Tg6fKmX6OvC02cbo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IPS/mmal" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9486a82a-1cd3-4e17-9a49-22cc19681252" name="Default Changelist" comment="" />
+      <created>1601814874374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601814874374</updated>
+      <workItem from="1601814876023" duration="12537000" />
+      <workItem from="1602085333932" duration="8805000" />
+      <workItem from="1602237804488" duration="2331000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="235" y="173" width="800" height="684" key="#Notifications" timestamp="1602239012258">
+      <screen x="0" y="27" width="3200" height="1053" />
+    </state>
+    <state x="235" y="173" width="800" height="684" key="#Notifications/0.27.3200.1053@0.27.3200.1053" timestamp="1602239012258" />
+    <state x="423" y="270" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602241075771">
+      <screen x="0" y="27" width="3200" height="1053" />
+    </state>
+    <state x="423" y="270" width="424" height="491" key="FileChooserDialogImpl/0.27.3200.1053@0.27.3200.1053" timestamp="1602241075771" />
+    <state x="100" y="119" width="1022" height="737" key="SettingsEditor" timestamp="1602239045132">
+      <screen x="0" y="27" width="3200" height="1053" />
+    </state>
+    <state x="812" y="124" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1602087630668" />
+    <state x="100" y="119" key="SettingsEditor/0.27.3200.1053@0.27.3200.1053" timestamp="1602239045132" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1602088199054">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602088199054" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602087794743">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602087794743" />
+  </component>
+</project>

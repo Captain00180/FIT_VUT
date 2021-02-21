@@ -1,0 +1,13 @@
+Source: bc-calc
+Section: Miscellaneous
+Priority: extra
+Maintainer: Filip Januška <f.januska@gmail.com>
+Build-Depends: debhelper (>= 7),
+		python3
+Standards-Version: 4.4.1
+
+Package: bc-calc
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, python3-pyqt5, python3-pytest
+Description: Calculator
+ Almost bachelors' calculator
